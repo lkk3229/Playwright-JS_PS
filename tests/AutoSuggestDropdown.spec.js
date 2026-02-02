@@ -7,9 +7,9 @@ test('Auto suggest dropdown', async ({page}) =>{
     await page.locator('#srcinput').fill('Delhi');
 
     //wait for auto suggest options to appear
-    await page.waitForSelector("//li[contains(@class,'sc-iwsKbI')]/div/text[1]")
+    await page.waitForSelector("(//div[@class='searchCategory___7c4b56'])[1]")
 
-    const fromCityOptions = await page.$$("//li[contains(@class,'sc-iwsKbI')]/div/text[1]")
+    const fromCityOptions = await page.$$("(//div[@class='searchCategory___7c4b56'])[1]")
 
     for(let option of fromCityOptions)
         {
