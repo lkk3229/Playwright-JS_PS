@@ -10,7 +10,7 @@ test('Hidden options dropdown', async ({page}) => {
     await page.click("//span[normalize-space()='PIM']");
 
     // Click on dropdown to reveal hidden options
-    await page.click("//*[@id='app']/div[1]/div[2]/div[2]/div/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]/i");
+    await page.click("//div[6]//div[1]//div[2]//div[1]//div[1]//div[2]//i[1]");
 
     //wait for the dropdown options to be visible
     await page.waitForTimeout(5000);

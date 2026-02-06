@@ -4,10 +4,11 @@ const { test, expect } = require('@playwright/test');
 test('Single File', async ({ page }) => {
     await page.goto('https://www.foundit.in/')
 
+    await page.waitForSelector('.mqfihd-upload')
     await page.locator('.mqfihd-upload').click()
-    await page.waitForSelector('.mqfihd-upload');
+    
 
-    await page.locator('#file-upload').setInputFiles('tests\Testfile1.pdf')
+    await page.locator('#file-upload').setInputFiles('tests/Testfile1.pdf')
 
     await page.waitForTimeout(5000)
 
@@ -18,9 +19,9 @@ test.only('Multiple Files', async ({ page }) => {
     await page.goto('https://davidwalsh.name/demo/multiple-file-upload.php')
 
     await page.locator('#filesToUpload')
-    .setInputFiles(['tests\Testfile1.pdf',
-                    'tests\Testfile2.pdf'
-                    ]);
+            .setInputFiles(['tests/uploadFiles/Testfile1.pdf',
+                            'tests/uploadFiles/Testfile2.pdf'
+                         ]);
  
 await page.waitForTimeout(5000)
 

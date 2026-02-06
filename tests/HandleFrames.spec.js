@@ -8,13 +8,13 @@ test('frames', async ({ page }) => {
     console.log("Number of frames: ",allframes.length)
 
     //approach 1: using name or Url of the page
-   // const frame_1=await.page.frame('name');    //if name of frame is preset
-   // const frame1=await page.frame({url:'https://ui.vision/demo/webtest/frames/frame_1.html'})
-    //await frame1.fill("[name='mytest1']",'Hello');
+    const frame_1=await page.frame('name');    //if name of frame is preset
+    const frame1=await page.frame({url:'https://ui.vision/demo/webtest/frames/frame_1.html'})
+     await frame1.fill("[name='mytext1']",'Hello');
 
     //approch 2 - using frame locator
-    const inputbox=await page.frameLocator("frame[src='frame_1.html']").locator("[name='mytest1']")
-    inputbox.fill("Hello")
+    //const inputbox=await page.frameLocator("frame[src='frame_1.html']").locator("[name='mytext1']")
+    // inputbox.fill("Hello")
     
     await page.waitForTimeout(5000);
 

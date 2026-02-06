@@ -10,7 +10,7 @@ afterAll: This hook is executed once after all the tests have been run.
 
 */
 
-// Added a screenshot with the help of video 0:43
+// Added a screenshot with the help of video 0:43 (Check in Hook_Screenshot folder)
 
 import { test, expect } from '@playwright/test';
 

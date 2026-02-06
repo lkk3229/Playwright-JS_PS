@@ -3,7 +3,7 @@ const { test, expect } = require('@playwright/test');
 test('Mouse double Click', async ({ page }) => {
     await page.goto('https://testautomationpractice.blogspot.com/');
 
-    const btnCopy=await page.locator('//span[normalize-space()="Copy Text"]')
+    const btnCopy=await page.locator('//button[normalize-space()="Copy Text"]')
 
     //double click action
     await btnCopy.dblclick()
