@@ -1,0 +1,228 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Selenium logo green" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Selenium logo green" [ref=e6]
+      - generic [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - button "About" [ref=e20] [cursor=pointer]
+          - listitem [ref=e21]:
+            - link "Downloads" [ref=e22] [cursor=pointer]:
+              - /url: /downloads
+          - listitem [ref=e23]:
+            - link "Documentation" [ref=e24] [cursor=pointer]:
+              - /url: /documentation
+          - listitem [ref=e25]:
+            - link "Projects" [ref=e26] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=e27]:
+            - link "Support" [ref=e28] [cursor=pointer]:
+              - /url: /support
+          - listitem [ref=e29]:
+            - link "Blog" [ref=e30] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e31]:
+            - button "English" [ref=e33] [cursor=pointer]
+        - button "Search" [ref=e37] [cursor=pointer]:
+          - generic [ref=e38]:
+            - img [ref=e39]
+            - generic [ref=e41]: Search
+          - generic [ref=e42]:
+            - img [ref=e44]
+            - generic [ref=e46]: K
+    - alert [ref=e50]:
+      - heading "Registrations Open for SeleniumConf 2026 | May 06–08 | Join Us In-Person! Register now!" [level=4] [ref=e51]:
+        - text: Registrations Open for SeleniumConf 2026 | May 06–08 | Join Us In-Person!
+        - link "Register now!" [ref=e52] [cursor=pointer]:
+          - /url: https://seleniumconf.com/register/?utm_medium=Referral&utm_source=selenium.dev&utm_campaign=register
+  - generic [ref=e53]:
+    - main [ref=e54]:
+      - generic [ref=e58]:
+        - heading "Selenium automates browsers. That's it!" [level=1] [ref=e59]
+        - paragraph [ref=e60]: What you do with that power is entirely up to you.
+        - paragraph [ref=e61]: Primarily it is for automating web applications for testing purposes, but is certainly not limited to just that.
+        - paragraph [ref=e62]: Boring web-based administration tasks can (and should) also be automated as well.
+      - heading "Getting Started" [level=2] [ref=e65]
+      - generic [ref=e68]:
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - img "Selenium WebDriver" [ref=e74]
+            - heading "Selenium WebDriver" [level=4] [ref=e77]
+            - paragraph
+            - paragraph [ref=e78]: If you want to create robust, browser-based regression automation suites and tests, scale and distribute scripts across many environments, then you want to use Selenium WebDriver, a collection of language specific bindings to drive a browser - the way it is meant to be driven.
+            - paragraph
+          - link "Read more " [ref=e81] [cursor=pointer]:
+            - /url: /documentation/webdriver/
+            - text: Read more
+            - generic [ref=e82]: 
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - img "Selenium IDE" [ref=e88]
+            - heading "Selenium IDE" [level=4] [ref=e91]
+            - paragraph
+            - paragraph [ref=e92]: If you want to create quick bug reproduction scripts, create scripts to aid in automation-aided exploratory testing, then you want to use Selenium IDE; a Chrome, Firefox and Edge add-on that will do simple record-and-playback of interactions with the browser.
+            - paragraph
+          - link "Read more " [ref=e95] [cursor=pointer]:
+            - /url: https://selenium.dev/selenium-ide/
+            - text: Read more
+            - generic [ref=e96]: 
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - img "Selenium Grid" [ref=e102]
+            - heading "Selenium Grid" [level=4] [ref=e104]
+            - paragraph
+            - paragraph [ref=e105]: If you want to scale by distributing and running tests on several machines and manage multiple environments from a central point, making it easy to run the tests against a vast combination of browsers/OS, then you want to use Selenium Grid.
+            - paragraph
+          - link "Read more " [ref=e108] [cursor=pointer]:
+            - /url: /documentation/grid/
+            - text: Read more
+            - generic [ref=e109]: 
+      - heading "Development Partners" [level=2] [ref=e111]
+      - generic [ref=e112]:
+        - link "BrowserStack" [ref=e114] [cursor=pointer]:
+          - /url: https://www.browserstack.com/automate?utm_campaign=open-source-sponsor&utm_campaigncode=701OW000009sQwVYAU&utm_medium=partnered&utm_source=seleniumorg
+          - img "BrowserStack" [ref=e115]
+        - link "Sauce Labs" [ref=e117] [cursor=pointer]:
+          - /url: https://saucelabs.com/resources/topic-hub/selenium?utm_source=selenium&utm_medium=website&utm_campaign=selenium-sponsorship-fy25
+          - img "Sauce Labs" [ref=e118]
+        - link "TestMu AI (formerly LambdaTest)" [ref=e120] [cursor=pointer]:
+          - /url: https://www.testmuai.com/selenium-automation
+          - img "TestMu AI (formerly LambdaTest)" [ref=e121]
+      - heading "Selenium Level Sponsors" [level=2] [ref=e123]
+      - generic [ref=e124]:
+        - link "Bright Data" [ref=e126] [cursor=pointer]:
+          - /url: https://brightdata.com/?utm_source=brand&utm_campaign=brnd-mkt_partners_selenium
+          - img "Bright Data" [ref=e127]
+        - link "Applitools" [ref=e129] [cursor=pointer]:
+          - /url: https://applitools.com/
+          - img "Applitools" [ref=e130]
+        - link "Thordata" [ref=e132] [cursor=pointer]:
+          - /url: https://www.thordata.com/?ls=waOicIkB&lk=selenium
+          - img "Thordata" [ref=e133]
+      - heading "News" [level=2] [ref=e136]
+      - generic [ref=e137]:
+        - generic [ref=e140]:
+          - heading "Selenium 4.40 Released!" [level=4] [ref=e141]
+          - paragraph [ref=e142]: Sunday, January 18, 2026
+          - paragraph [ref=e143]:
+            - text: By Diego Molina
+            - link "@diemol" [ref=e144] [cursor=pointer]:
+              - /url: https://www.diemol.com
+        - generic [ref=e147]:
+          - paragraph [ref=e148]: Today we’re happy to announce that Selenium 4.40 has been released!
+          - link "Read More " [ref=e149] [cursor=pointer]:
+            - /url: https://www.selenium.dev/blog/2026/selenium-4-40-released/
+            - text: Read More
+            - generic [ref=e150]: 
+      - generic [ref=e151]:
+        - generic [ref=e154]:
+          - heading "Selenium 4.39 Released!" [level=4] [ref=e155]
+          - paragraph [ref=e156]: Saturday, December 06, 2025
+          - paragraph [ref=e157]:
+            - text: By Diego Molina
+            - link "@diemol" [ref=e158] [cursor=pointer]:
+              - /url: https://www.diemol.com
+        - generic [ref=e161]:
+          - paragraph [ref=e162]: Today we’re happy to announce that Selenium 4.39 has been released!
+          - link "Read More " [ref=e163] [cursor=pointer]:
+            - /url: https://www.selenium.dev/blog/2025/selenium-4-39-released/
+            - text: Read More
+            - generic [ref=e164]: 
+      - generic [ref=e165]:
+        - generic [ref=e168]:
+          - heading "Selenium 4.38 Released!" [level=4] [ref=e169]
+          - paragraph [ref=e170]: Friday, October 24, 2025
+          - paragraph [ref=e171]:
+            - text: By Diego Molina
+            - link "@diemol" [ref=e172] [cursor=pointer]:
+              - /url: https://www.diemol.com
+        - generic [ref=e175]:
+          - paragraph [ref=e176]: Today we’re happy to announce that Selenium 4.38 has been released!
+          - link "Read More " [ref=e177] [cursor=pointer]:
+            - /url: https://www.selenium.dev/blog/2025/selenium-4-38-released/
+            - text: Read More
+            - generic [ref=e178]: 
+      - link "More news " [ref=e181] [cursor=pointer]:
+        - /url: /blog
+        - text: More news
+        - generic [ref=e182]: 
+      - generic [ref=e185]:
+        - heading "Support the Selenium Project" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Learn more or view the full list of sponsors.
+        - link "Learn more " [ref=e189] [cursor=pointer]:
+          - /url: /sponsors
+          - text: Learn more
+          - generic [ref=e190]: 
+      - generic [ref=e193]:
+        - heading "Donate to Selenium" [level=2] [ref=e194]
+        - heading "through Open Collective" [level=3] [ref=e195]:
+          - text: through
+          - link "Open Collective" [ref=e196] [cursor=pointer]:
+            - /url: https://opencollective.com/selenium
+    - contentinfo [ref=e197]:
+      - generic [ref=e199]:
+        - list [ref=e201]:
+          - listitem "Selenium Linkedin" [ref=e202]:
+            - link "Selenium Linkedin" [ref=e203] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/4826427/
+              - generic [ref=e204]: 
+          - listitem "Selenium X" [ref=e205]:
+            - link "Selenium X" [ref=e206] [cursor=pointer]:
+              - /url: https://x.com/SeleniumHQ
+              - generic [ref=e207]: 
+          - listitem "Selenium Community YouTube Channel" [ref=e208]:
+            - link "Selenium Community YouTube Channel" [ref=e209] [cursor=pointer]:
+              - /url: https://www.youtube.com/@SeleniumHQProject/
+              - generic [ref=e210]: 
+          - listitem "Selenium Mastodon" [ref=e211]:
+            - link "Selenium Mastodon" [ref=e212] [cursor=pointer]:
+              - /url: https://mastodon.social/@seleniumHQ@fosstodon.org
+              - generic [ref=e213]: 
+          - listitem "Selenium BlueSky" [ref=e214]:
+            - link "Selenium BlueSky" [ref=e215] [cursor=pointer]:
+              - /url: https://bsky.app/profile/seleniumconf.bsky.social
+              - generic [ref=e216]: 
+          - listitem "User mailing list" [ref=e217]:
+            - link "User mailing list" [ref=e218] [cursor=pointer]:
+              - /url: https://groups.google.com/group/selenium-users
+              - generic [ref=e219]: 
+          - listitem "SeleniumConf YouTube Channel" [ref=e220]:
+            - link "SeleniumConf YouTube Channel" [ref=e221] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCbDlgX_613xNMrDqCe3QNEw
+              - generic [ref=e222]: 
+        - generic [ref=e223]:
+          - list [ref=e224]:
+            - listitem "Software Freedom Conservancy" [ref=e225]:
+              - link "Software Freedom Conservancy" [ref=e226] [cursor=pointer]:
+                - /url: mailto:selenium@sfconservancy.org
+                - generic [ref=e227]: 
+            - listitem "GitHub" [ref=e228]:
+              - link "GitHub" [ref=e229] [cursor=pointer]:
+                - /url: https://github.com/seleniumhq/selenium
+                - generic [ref=e230]: 
+            - listitem "Slack" [ref=e231]:
+              - link "Slack" [ref=e232] [cursor=pointer]:
+                - /url: https://inviter.co/seleniumhq
+                - generic [ref=e233]: 
+            - listitem "IRC" [ref=e234]:
+              - link "IRC" [ref=e235] [cursor=pointer]:
+                - /url: https://web.libera.chat/#selenium
+                - generic [ref=e236]: 
+            - listitem "Developer mailing list" [ref=e237]:
+              - link "Developer mailing list" [ref=e238] [cursor=pointer]:
+                - /url: https://groups.google.com/g/selenium-developers
+                - generic [ref=e239]: 
+          - link "Deploys by Netlify" [ref=e240] [cursor=pointer]:
+            - /url: https://www.netlify.com
+            - img "Deploys by Netlify" [ref=e241]
+        - generic [ref=e242]:
+          - text: © 2026 Software Freedom Conservancy All Rights Reserved
+          - paragraph [ref=e243]:
+            - link "About Selenium" [ref=e244] [cursor=pointer]:
+              - /url: /about/
+```

@@ -1,0 +1,51 @@
+<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="12.039992">
+<testsuite name="Reporters.spec.js" timestamp="2026-02-11T16:43:24.583Z" hostname="chromium" tests="3" failures="1" skipped="0" time="10.256" errors="0">
+<testcase name="test1" classname="Reporters.spec.js" time="1.879">
+</testcase>
+<testcase name="test2" classname="Reporters.spec.js" time="1.55">
+</testcase>
+<testcase name="test3" classname="Reporters.spec.js" time="6.827">
+<failure message="Reporters.spec.js:13:1 test3" type="FAILURE">
+<![CDATA[  [chromium] › Reporters.spec.js:13:1 › test3 ──────────────────────────────────────────────────────
+
+    Error: expect(page).toHaveTitle(expected) failed
+
+    Expected: "Selenim"
+    Received: "Selenium"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveTitle" with timeout 5000ms
+        9 × unexpected value "Selenium"
+
+
+      13 | test('test3', async ({page})=>{
+      14 |     await page.goto('https://www.selenium.dev/');
+    > 15 |     await expect(page).toHaveTitle("Selenim");
+         |                        ^
+      16 | })
+      17 |
+      18 |
+        at C:\Users\kasaudha\OneDrive - Agilent Technologies\Desktop\Data\Jar\JS_Workspace\PlaywrightAutomation\tests\Reporters.spec.js:15:24
+
+    Error Context: ..\test-results\Reporters-test3-chromium\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\Reporters-test3-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\Reporters-test3-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporters-test3-chromium\error-context.md]]
+
+[[ATTACHMENT|test-results\Reporters-test3-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
